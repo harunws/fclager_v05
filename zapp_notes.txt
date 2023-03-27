@@ -1,0 +1,118 @@
+🔴🟢🟡 🔎 ❓ ❗ 👀 🌏🤖 🧶 🧩 ⏱ 📆 🚩 🥎⛔🚀💿🧬🔋 ⭐📤📍👺📲
+Emoji list: 
+=============================
+  🔴  Needs solution, Have some issues & errors
+  🟡  Warning & Waiting for solution,  Pending &Not completed
+  🟢  Solved, Completed
+  🔎  Search & Find & Understand
+  ❓  Question / Quiz
+  ❗❗❗ Priority 1 important
+  ❗❗  Priority 2 important
+  ❗   Priority 3 important
+  👀  Examine when you have time
+  🌏  Link
+  🤖 Github Link
+  🧶  Actual, Present
+  🧩  Install package
+  ⏱  Time
+  📆  Date
+  🚩  Extra caution 
+  🥎  Beginning of the steps
+  ⛔  Errors & issues
+  🚀  Solutions
+  💿  Backup
+  🧬  Code lines
+  📤  Output after any code 
+  🔋   Start, run or activate an app
+ ⭐ For likes or attentions
+  📍  Beginning of the heads and subheads
+  👺Par, password etc.
+  📲 Import: Links etc.
+
+  =   Header section
+  --  Sub header section
+  ..  Division
+
+  Folder & File Structure:
+  (=>): Folder 
+  (==>): Subfolder 
+  (===>): Folder in Subfolder
+  (->) -> File
+  (=->) File in Folder
+  (==->) File in Subfolder
+  (===->) File in Folder in Subfolder
+============================>
+TUTORIAL INFO:
+=============================
+Likes(⭐)=========: 
+ShortComments====:
+Name ===========:
+Tutor Name =====:
+Published ========: Sep 11, 2022
+Title ============: React CRUD operations using PHP API and MySQLi | PHP REST API | CRUD in React & PHP  
+Content =========:
+Link_Youtube 🌏==: 
+Part #1:https://www.youtube.com/watch?v=UXfPjbYvors&ab_channel=DevAmitJha
+
+Part #2:https://www.youtube.com/watch?v=Y-CaXyG247g&ab_channel=DevAmitJha
+
+Part #3:https://www.youtube.com/watch?v=miUtmNPlNLY&t=2s&ab_channel=DevAmitJha
+
+Link_GitHub 🤖 ===:
+Link_Source======:
+Total hrs. : ======> 
+Subject =========: 
+Review(⭐ ======: 
+GithubUpload 🤖==: 
+Completed ======: 2023..
+Tdate==========: 2023
+Start===========: 00:00:00 
+Stop===========: 00:00:00 
+NextStartVideo===: 00:00:00
+==========================<
+
+===========================
+TODOs:
+🚩 Find a resonable date format
+🚩
+
+🥎Step #:4 bkp:💿202303271030
+---------------------------
+
+---------------------------
+---------------------------
+🥎Step #:3 bkp:💿202303251030
+---------------------------
+...........................
+DB name: fclager
+Table : customers_v05
+...........................
+---------------------------
+---------------------------
+🥎Step #:2 
+---------------------------
+...........................
+
+...........................
+---------------------------
+---------------------------
+🥎Step #:1
+---------------------------
+...........................
+DB name: fclager
+Table : customers_v05
+All crud functions including details page work fine.. 
+...........................
+...........................
+All api/php folder, files restructured
+Frontend, src folder, files restructured
+🌏Bootstrap icon link added in public/index.html
+📲Bootstap link imported in App.js
+...........................
+...........................
+🧩npm i bootstrap
+🧩npm axios
+🧩npm i react-router-dom
+...........................
+---------------------------
+===========================<
