@@ -74,7 +74,7 @@ NextStartVideo===: 00:00:00
 ===========================
 TODOs:
 🚩 Find a resonable date format
-🚩
+🚩 Use cards ind stead of tables..
 
 🥎Step #:4 bkp:💿202303271030
 ---------------------------
@@ -92,7 +92,12 @@ Table : customers_v05
 🥎Step #:2 
 ---------------------------
 ...........................
+How create an inline style in react:
+  const myStyle = {
+    color: 'white'
+  }
 
+Call value in html line ie. <p style{myStyle}>Hello</p>
 ...........................
 ---------------------------
 ---------------------------
@@ -116,3 +121,21 @@ Frontend, src folder, files restructured
 ...........................
 ---------------------------
 ===========================<
+
+Customers: output structure:
+❗ Ny kontraknr. Structure : 
+2015P-2023 Lokal nr. kundetype, aar. 
+#1 customer_id
+#2 customer_contractnr = Kontraktnr. : 2015P-2023
+#3 customer_fullname = Fulde navn : Lars Ole Heningsen
+#4 customer_email = Email: lars@gmail.com
+#5 customer_mobile = Mobil 22 22 22 22
+#6 customer_addresse = Adresse : Gaarsvej 23, DK-2630 Taastrup
+#7 customer_comment = Kommentar: Text box
+#8 customer_created = Create Date 
+#9 customer_par = Par : kode..
+
+
+
+
+
