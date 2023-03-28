@@ -58,7 +58,7 @@ export default function CustomerList() {
 
        <div className="d-flex justify-content-end mt-4">
         {/* Check her again. to="/insert" seems not correct */}
-        <Link to="/insert"
+        <Link to="/create"
           className='btn btn-outline-info btn-sm'        
         > +Tiføj Ny</Link> 
       </div>
