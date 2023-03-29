@@ -20,7 +20,7 @@ export default function CustomerUpdate() {
     try {
       axios.post(`http://localhost/fclager/fclager_v05/backend/customer_read_single.php`, { 
        
-        customerIds: ids,
+        customerids: ids,
       })
       .then(res => {
 
@@ -38,7 +38,7 @@ export default function CustomerUpdate() {
     <div>
     {isloadcustomer && 
 
-      < CustomerUpdateForm list={iscustomer} />
+      <CustomerUpdateForm list={iscustomer} />
     }
     </div>
   );

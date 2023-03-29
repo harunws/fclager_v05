@@ -95,7 +95,7 @@ export default function CustomerList() {
               <td>{item.customer_created} </td>          
               <td>{item.customer_par} </td>          
               <td>
-                <Link to={`details/${item.customer_id}`}
+                <Link to={`detail/${item.customer_id}`}
                   className='bi bi-eye-fill text-info'
                 />
 

@@ -10,8 +10,8 @@
     && isset($data->customerAddress)
     && isset($data->customerComment) 
     && isset($data->customerPar)
-
     && isset($data->customerids)
+
 
     && !empty(trim($data->customerContractnr))
     && !empty(trim($data->customerFullname)) 
@@ -20,7 +20,6 @@
     && !empty(trim($data->customerAddress))
     && !empty(trim($data->customerComment))   
     && !empty(trim($data->customerPar))
-
     && !empty(trim($data->customerids))
 
     ){
@@ -32,7 +31,6 @@
       $customerAddress = mysqli_real_escape_string($db_conn, trim($data->customerAddress));
       $customerComment = mysqli_real_escape_string($db_conn, trim($data->customerComment));
       $customerPar = mysqli_real_escape_string($db_conn, trim($data->customerPar));
-
       $customerids = mysqli_real_escape_string($db_conn, trim($data->customerids));
 
       $add = mysqli_query($db_conn, 
