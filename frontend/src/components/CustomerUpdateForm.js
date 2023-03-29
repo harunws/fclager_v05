@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import axios from 'axios';
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 export default function CustomerUpdateForm({list}) {
 
@@ -182,8 +182,11 @@ export default function CustomerUpdateForm({list}) {
         <input 
           type="submit" 
           value="update" 
-          className='btn btn-success'
+          className='btn btn-success btn-sm'
         />
+        <button className='btn btn-secondary btn-sm ms-3'>
+          <Link to="/customer_list"/> Annuller 
+        </button>               
       </form>
     </div>
   );

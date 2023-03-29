@@ -2,7 +2,7 @@
   require 'db_connection.php';
 
   $allCustomers = mysqli_query(
-    $db_conn, "SELECT * FROM customers_v05 ORDER BY customer_id DESC"
+    $db_conn, "SELECT * FROM customers_v05 ORDER BY customer_contractnr ASC"
   );
 
   if(mysqli_num_rows($allCustomers) > 0)

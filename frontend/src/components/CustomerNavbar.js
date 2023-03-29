@@ -4,17 +4,17 @@ import {Link} from 'react-router-dom';
 export default function CustomerNavbar() {
 
   const navbarStyle = { 
-    backgroundColor: '#800000',
+    backgroundColor: '#400000',
   }
 
   return (
   <nav 
-    className="navbar navbar-expand-lg"
+    className="navbar navbar-expand-lg "
     style={navbarStyle}
   >
     <div className="container-fluid ">
 
-      <Link to="/" className="navbar-brand fw-bold text-white ">FCLager</Link> 
+      <Link to="/" className="navbar-brand fw-bold  ">FCLager</Link> 
 
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -24,16 +24,16 @@ export default function CustomerNavbar() {
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
           <li className="nav-item">
-            <Link to="/" className="navbar-brand text-white">Hjem</Link>  
+            <Link to="/" className="navbar-brand ">Hjem</Link>  
           </li>
           <li className="nav-item">
-            <Link to="/customer_list" className="navbar-brand text-white">Lejer</Link>
+            <Link to="/customer_list" className="navbar-brand ">Lejer</Link>
           </li>
 
         </ul>
         <form className="d-flex" role="search">
           <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-          <button className="btn btn-outline-light text-white" type="submit">Search</button>
+          <button className="btn btn-outline-light " type="submit"><i class="bi bi-search"></i></button>
         </form>
       </div>     
     </div>

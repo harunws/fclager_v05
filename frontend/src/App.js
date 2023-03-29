@@ -8,6 +8,7 @@ import CustomerCreate from './components/CustomerCreate';
 import CustomerList from './components/CustomerList';
 import CustomerDetail from './components/CustomerDetail';
 import CustomerUpdate from './components/CustomerUpdate';
+import CustomerFooter from './components/CustomerFooter';
 
 function App() {
   return (
@@ -20,9 +21,11 @@ function App() {
         <Route path="/create" element={<CustomerCreate />} />
         
         {/* Just remember when you make link through other page, than home */}
-        <Route path="/customer_list/update/:ids" element={<CustomerUpdate />} />       
-        <Route path="/customer_list/detail/:ids" element={<CustomerDetail />} />       
+        <Route path="/customer_list/update/:ids" element={<CustomerUpdate />} />      
+        <Route path="/customer_list/detail/:ids" element={<CustomerDetail />} />  
+
       </Routes>
+      <CustomerFooter />
     </>
   )   
 }

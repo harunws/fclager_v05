@@ -54,8 +54,9 @@ export default function CustomerList() {
     }
   }
 
+
   return (
-    <div className='container col-12'>
+    <div className='container col-12 text-secondary'>
 
        <div className="d-flex justify-content-end mt-4">
         {/* Check her again. to="/insert" seems not correct */}
@@ -65,7 +66,7 @@ export default function CustomerList() {
       </div>
 
       <h3 className=''>Lejerliste</h3>     
-      <table className="table">
+      <table className="table text-secondary">
 
         <thead>
           <tr>
@@ -74,10 +75,10 @@ export default function CustomerList() {
             <th scope="col">Navn</th>
             <th scope="col">Email</th>
             <th scope="col">Mobil</th>
-            <th scope="col">Adresse</th>
+            {/* <th scope="col">Adresse</th> */}
             {/* <th scope="col">Kommentar</th> */}
             <th scope="col">Oprettelse</th>
-            <th scope="col">Par</th>
+            {/* <th scope="col">Par</th> */}
             <th scope="col">Action</th>
           </tr>
         </thead>
@@ -91,21 +92,25 @@ export default function CustomerList() {
               <td>{item.customer_fullname} </td>
               <td>{item.customer_email} </td>
               <td>{item.customer_mobile} </td>          
-              <td>{item.customer_address} </td>          
+              {/* <td>{item.customer_address} </td> */}
               {/* <td>{item.customer_comment} </td>*/}
-              <td>{item.customer_created} </td>          
-              <td>{item.customer_par} </td>          
+              <td>{item.customer_created}         
+                
+                
+              </td>          
+              {/* <td>{item.customer_par} </td> */}
               <td>
                 <Link to={`detail/${item.customer_id}`}
-                  className='bi bi-eye-fill text-info'
+                  className='bi bi-eye text-info'
                 />
 
                 <Link to={`update/${item.customer_id}`}
-                  className='bi bi-pencil-fill mx-1 text-primary mx-3'
+                  className='bi bi-pencil mx-1 text-primary mx-3'
+                  mouseOver="hello"
                 />
 
                 <Link to 
-                  className='bi bi-trash3-fill text-danger'
+                  className='bi bi-trash3 text-danger'
                   onClick = {() => deleteConfirm(item.customer_id)}
                 />
                 
