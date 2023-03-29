@@ -68,13 +68,13 @@ export default function CustomerList() {
 
         <thead>
           <tr>
-            <th scope="col">#Id</th>           
+            <th scope="col">Nr.</th>           
             <th scope="col">Kontraktnr</th>
             <th scope="col">Navn</th>
             <th scope="col">Email</th>
             <th scope="col">Mobil</th>
             <th scope="col">Adresse</th>
-            <th scope="col">Kommenter</th>
+            {/* <th scope="col">Kommentar</th> */}
             <th scope="col">Oprettelse</th>
             <th scope="col">Par</th>
             <th scope="col">Action</th>
@@ -85,13 +85,13 @@ export default function CustomerList() {
             iscustomer.map((item, index) =>(
 
               <tr key={item.customer_id}>
-              <td>{index}</td>
+              <td>{index + 1}</td>
               <td>{item.customer_contractnr} </td>
               <td>{item.customer_fullname} </td>
               <td>{item.customer_email} </td>
               <td>{item.customer_mobile} </td>          
               <td>{item.customer_address} </td>          
-              <td>{item.customer_comment} </td>          
+              {/* <td>{item.customer_comment} </td>*/}
               <td>{item.customer_created} </td>          
               <td>{item.customer_par} </td>          
               <td>

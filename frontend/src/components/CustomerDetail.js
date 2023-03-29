@@ -35,23 +35,38 @@ export default function CustomerDetail() {
 
   return (
 
-    <div className='container mt-4'>
-      <h4> Customer Detail Page</h4>
+    <div className='d-flex justify-content-center'>      
+      {/* Card Start */}
+      <div className="col-9 mt-4">
+        <div className="col">
+          <div className="card h-400">
+            <img src="..." className="card-img-top" alt=""/>
+            <div className="card-body">
+              <h5 className="card-title fs-3">Lejer info</h5>
+              { iscustomer ? 
+                <div>
+                  {/* Here find a solution for index */}
+                  {/* <p> # {iscustomer.customer_id}</p> */}
 
-      { iscustomer ? 
-        <div>
-          {/* Here find a solution for index */}
-          <p> # {iscustomer.customer_id}</p>
-          <p>Name : {iscustomer.customer_contractnr} </p> 
-          <p>Name : {iscustomer.customer_fullname} </p> 
-          <p>Name : {iscustomer.customer_email} </p> 
-          <p>Name : {iscustomer.customer_mobile} </p> 
-          <p>Name : {iscustomer.customer_address} </p> 
-          <p>Name : {iscustomer.customer_comment} </p> 
-          <p>Name : {iscustomer.customer_created} </p>
-          <p>Name : {iscustomer.customer_par} </p>
-        </div> : null      
-      }
+                  <p className="card-text"><span className='fw-semibold'> Kontraktnr :</span> {iscustomer.customer_contractnr} </p> 
+                  <p className="card-text"><span className='fw-semibold'> Navn :</span> {iscustomer.customer_fullname} </p> 
+                  <p className="card-text"><span className='fw-semibold'> Email :</span> {iscustomer.customer_email} </p> 
+                  <p className="card-text"><span className='fw-semibold'> Mobile :</span> {iscustomer.customer_mobile} </p> 
+                  <p className="card-text"><span className='fw-semibold'> Adresse :</span> {iscustomer.customer_address} </p>                 
+                  <p className="card-text"><span className='fw-semibold'> Kommuntar:</span> <br/> {iscustomer.customer_comment} </p>                  
+
+                  <div className="card-footer">
+                    <small className="text-body-secondary">Oprettet : {iscustomer.customer_created} </small>
+                    <small className="text-body-secondary"> Par : {iscustomer.customer_par}</small>
+                  </div>
+                </div> : null      
+              }
+            </div>            
+          </div>
+        </div>  
+      </div>
+       {/* Card End */}
+
     </div>
   )
 }
