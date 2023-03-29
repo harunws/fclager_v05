@@ -12,13 +12,14 @@ export default function CustomerList() {
       axios.get(`http://localhost/fclager/fclager_v05/backend/customer_read_all.php`)
       .then(res => {
         setIsCustomer(res.data.customerlist.customerdata);
-       
+
       })
     }
     catch(error)
     {
       throw error;
     }
+    
   }
 
   useEffect(() => {
@@ -58,12 +59,12 @@ export default function CustomerList() {
 
        <div className="d-flex justify-content-end mt-4">
         {/* Check her again. to="/insert" seems not correct */}
-        <Link to="/insert"
+        <Link to="/create"
           className='btn btn-outline-info btn-sm'        
         > +Tiføj Ny</Link> 
       </div>
 
-      <h3 className=''>Lejeriste</h3>     
+      <h3 className=''>Lejerliste</h3>     
       <table className="table">
 
         <thead>
@@ -102,9 +103,8 @@ export default function CustomerList() {
                 <Link to={`update/${item.customer_id}`}
                   className='bi bi-pencil-fill mx-1 text-primary mx-3'
                 />
-                {/* <Link to={`update/${item.user_id}`} */}
 
-                 <Link to 
+                <Link to 
                   className='bi bi-trash3-fill text-danger'
                   onClick = {() => deleteConfirm(item.customer_id)}
                 />
