@@ -24,10 +24,10 @@ export default function CustomerNavbar() {
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
           <li className="nav-item">
-            <Link to="/" className="navbar-brand text-white">Home</Link>  
+            <Link to="/" className="navbar-brand text-white">Hjem</Link>  
           </li>
           <li className="nav-item">
-            <Link to="/customer_list" className="navbar-brand text-white">Customers</Link>
+            <Link to="/customer_list" className="navbar-brand text-white">Lejer</Link>
           </li>
 
         </ul>
