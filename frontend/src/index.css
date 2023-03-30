@@ -4,3 +4,11 @@
   font-family: 'Montserrat', sans-serif;
   font-size: small;
 }
+
+main{
+  height: 400px;
+}
+
+footer{
+  height: 100px;
+}

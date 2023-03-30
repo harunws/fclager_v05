@@ -4,15 +4,15 @@ export default function CustomerFooter() {
 
 
   const footerStyle = { 
-    backgroundColor: '#400000',
+    backgroundColor: '#780101',
   }
 
   return (
-    <div 
+    <footer 
       className='d-flex justify-content-center'
       style={footerStyle}
     >
-      <small className='text-secondary m-2 fst-italic text-sm'> Copyright © {new Date().getFullYear()} Petek Design  </small>    
-    </div>
+      <p className='text-white fst-italic fw-bold text'> Copyright © {new Date().getFullYear()} Petek Design </p>    
+    </footer>
   )
 }

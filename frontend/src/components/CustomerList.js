@@ -56,7 +56,7 @@ export default function CustomerList() {
 
 
   return (
-    <div className='container col-12 text-secondary'>
+    <main className='container col-12 text-secondary'>
 
        <div className="d-flex justify-content-end mt-4">
         {/* Check her again. to="/insert" seems not correct */}
@@ -120,6 +120,6 @@ export default function CustomerList() {
           }
         </tbody>
       </table>
-    </div>
+    </main>
   )
 }
